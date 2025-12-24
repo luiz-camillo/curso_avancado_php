@@ -8,3 +8,8 @@
 que exige que vc crie uma f-string e coloque as variáveis entre parenteses
 
 aspas simples em php n]ao interpretam variáveis*/
+
+$nome = "Luiz";
+
+echo "Olá $nome !";
+?>
