@@ -1,6 +1,5 @@
 <?php
 
-  
   if(isset($_POST['numero'])){
     require_once 'functions/sumDigits.php';
     $digito = $_POST['numero'];
