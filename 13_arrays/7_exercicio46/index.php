@@ -1,9 +1,9 @@
 <?php
 
   $arrMulti = [
-    [1,2,3,4],
-    [5,6,7,8],
-    [9,10,11,12]
+    ["Esse é o Index 0 da linha 1","Esse é o Index 1 da linha 1","Esse é o Index 2 da linha 1","Esse é o Index 3 da linha 1"],
+    ["Esse é o Index 0 da linha 2","Esse é o Index 1 da linha 2","Esse é o Index 2 da linha 2","Esse é o Index 3 da linha 2"],
+    ["Esse é o Index 0 da linha 3","Esse é o Index 1 da linha 3","Esse é o Index 2 da linha 3","Esse é o Index 3 da linha 3"]
   ];
    
   
@@ -16,5 +16,5 @@
       echo $arrMulti[$i][$j] . "<br>";
     }
   }
-
+  echo "<br>";
   echo count($arrMulti);
