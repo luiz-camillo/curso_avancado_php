@@ -69,3 +69,5 @@
     echo $carro1->getVidro();
     echo "<br>";
 
+// o python me ajudou bastante em conseguir acompanhar esse conteúdo com rapidez, orientação a objetos é complexo porém basta prestar atenção e entender as nomenclaturas 
+/*Uma classe é basicamente o molde do objeto, um objeto é criado a partir de uma classe como por exemplo classe animal, que possui métodos e propriedades, essas propriedades podem ser, public, private, protected, classes filhas podem ser criadas a partir das classes pai, herdando características, por exemplo obrigar a classe filha a implementar um método ou atributo. Podemos ter a classe pai Animal{}, essa possui o método emitir som com o parametro "Som" que cada animal vai ter o seu, entao eu posso criar uma classe cachorro por exemplo que vai herdar o método emitirSom($som) e vai implementar o método na classe junto com as peculiaridades da classe cachorro*/ 
