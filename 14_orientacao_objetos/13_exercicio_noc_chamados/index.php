@@ -65,3 +65,8 @@ class GerenciadorChamados{
   }
 
 }
+
+$gerenciador = new GerenciadorChamados();
+$gerenciador->adicionar(new ChamadoCritico(1, "Link caiu no site X"));
+$gerenciador->adicionar(new ChamadoRotina(2, "Solicitação de troca de senha"));
+$gerenciador->listar();
