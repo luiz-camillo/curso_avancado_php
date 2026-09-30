@@ -67,8 +67,9 @@
         public function nivelAcesso(){
             if($this->acess){
                 echo 'Usuário com acesso de administrador';
-            }
-                echo 'Usuário sem acesso de administrador';           
+            } else{
+                echo 'Usuário sem acesso de administrador';
+            }           
         }
     }
 
