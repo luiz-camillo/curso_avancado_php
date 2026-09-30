@@ -78,23 +78,23 @@
     $email = 'lzc1@dev.br';
 
 
-    $luiz = new Cliente($username, $age, $email, 'Akks666!23d', true);
+    $cliente1 = new Cliente($username, $age, $email, 'Akks666!23d', true);
 
     echo 'Utilizando as funções get, logo abaixo irei expor os dados do objeto que acabei de criar: <br>';
 
     echo '<br>';
 
-    echo 'O nome de usuário é: ' . $luiz->getUserName() . '<br>';
+    echo 'O nome de usuário é: ' . $cliente1->getUserName() . '<br>';
 
-    echo 'A idade é: ' . $luiz->getAge() . '<br>';
+    echo 'A idade é: ' . $cliente1->getAge() . '<br>';
     
-    echo 'O email é: ' . $luiz->getEmail() . '<br>';
+    echo 'O email é: ' . $cliente1->getEmail() . '<br>';
 
-    echo 'A senha é: ' . $luiz->getPass() . '<br>';
+    echo 'A senha é: ' . $cliente1->getPass() . '<br>';
 
     echo 'O nível de acesso do usuário é: ';
     
-    $luiz->nivelAcesso();
+    $cliente1->nivelAcesso();
 
     echo '<br><br>';
 
@@ -102,27 +102,27 @@
 
     // salvando dados em variáveis antes de alterar para ficar mais facil de manipular
 
-    $luizName = $luiz->getUserName();
-    $luizAge = $luiz->getAge();
-    $luizEmail = $luiz->getEmail();
-    $luizPass = $luiz->getPass();
-    $luizAcess = $luiz->getAcess();
+    $cliente1Name = $cliente1->getUserName();
+    $cliente1Age = $cliente1->getAge();
+    $cliente1Email = $cliente1->getEmail();
+    $cliente1Pass = $cliente1->getPass();
+    $cliente1Acess = $cliente1->getAcess();
 
-    echo "<br>Estou trocando os dados do usuario $luizName que tem $luizAge anos, utiliza o e-mail $luizEmail e a senha $luizPass, atualmente ele tem o nível de acesso de " . ($luiz->getAcess() ? 'admin' : 'comprador');
+    echo "<br>Estou trocando os dados do usuario $cliente1Name que tem $cliente1Age anos, utiliza o e-mail $cliente1Email e a senha $cliente1Pass, atualmente ele tem o nível de acesso de " . ($cliente1->getAcess() ? 'admin' : 'comprador');
 
 
-    $luiz->setUserName('RAFAEL');
-    $luiz->setAge(25);
-    $luiz->setEmail('rafadeles@dev.us');
-    $luiz->setPass('scADEL566A12');
-    $luiz->setAcess(false);   
+    $cliente1->setUserName('RAFAEL');
+    $cliente1->setAge(25);
+    $cliente1->setEmail('rafadeles@dev.us');
+    $cliente1->setPass('scADEL566A12');
+    $cliente1->setAcess(false);   
 
     echo '<br>';
 
-    $luizName = $luiz->getUserName();
-    $luizAge = $luiz->getAge();
-    $luizEmail = $luiz->getEmail();
-    $luizPass = $luiz->getPass();
-    $luizAcess = $luiz->getAcess();
+    $cliente1Name = $cliente1->getUserName();
+    $cliente1Age = $cliente1->getAge();
+    $cliente1Email = $cliente1->getEmail();
+    $cliente1Pass = $cliente1->getPass();
+    $cliente1Acess = $cliente1->getAcess();
 
-    echo "<br>Agora os  dados do usuario mudaram para <br> Username: $luizName que tem $luizAge anos, utiliza o e-mail $luizEmail e a senha $luizPass, atualmente ele tem o nível de acesso de " . ($luiz->getAcess() ? 'admin' : 'comprador');
+    echo "<br>Agora os  dados do usuario mudaram para <br> Username: $cliente1Name que tem $cliente1Age anos, utiliza o e-mail $cliente1Email e a senha $cliente1Pass, atualmente ele tem o nível de acesso de " . ($cliente1->getAcess() ? 'admin' : 'comprador');
